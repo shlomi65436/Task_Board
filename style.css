@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(34, 0, 255, 0.141);
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.form{
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=2000");
+    background-size: cover;
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 570px;
+    border-radius: 5px;
+    border-color: rgb(204, 203, 202);
+}
+.logo{
+    float: left;
+}
+.s{
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(207, 0, 0, 0.7);
+    margin-top: 20px;
+    outline:none;
+}
+.s:active{
+    border-bottom: 2px solid rgba(255, 0, 0, 0.7);
+}
+.list{
+    text-align: left;
+}
+hr{
+    color: red;
+}
+
+BUTTON{
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgba(255, 0, 0, 0.51);
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+BUTTON:hover{
+    background-color:rgba(255, 0, 0, 0.634);
+    border-radius: 5px;
+    border: 1px solid rgb(79, 77, 77);
+    cursor: pointer;
+}
+#yesno{
+    display: none;
+}
+h5{
+    display: inline;
+    font-size: 15px;
+}
